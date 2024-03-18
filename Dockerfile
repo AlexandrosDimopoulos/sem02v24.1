@@ -26,8 +26,8 @@ RUN mkdir hacking \
 && cd ..
 RUN git config --global user.email "alexandrod@uia.no" \
 && git config --global user.name "AlexandrosDimopoulos" \
-&& git config --global url."https://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.insteadOf "https://github.com/AlexandrosDimopoulos/sem02v24.git" \
-&& mkdir -p github.com/AlexandrosDimopoulos/sem02v24
+&& git config --global url."https://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".insteadOf "https://github.com/AlexandrosDimopoulos/sem02v24.1.git" \
+&& mkdir -p github.com/AlexandrosDimopoulos/sem02v24.1
 USER root
 RUN curl -SL https://go.dev/dl/go1.22.1.linux-amd64.tar.gz \
 | tar xvz -C /usr/local
